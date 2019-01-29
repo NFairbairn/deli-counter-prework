@@ -14,7 +14,7 @@ def take_a_number (katz_deli, name)
 end
 
 def now_serving (katz_deli, name)
-name = katz_deli.shift
+#name = katz_deli.shift
   if katz_deli.length > 0
     puts "Currently serving #{name}."
     katz_deli.shift(name)
