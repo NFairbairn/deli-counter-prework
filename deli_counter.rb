@@ -1,1 +1,17 @@
 # Write your code here.
+def line (katz_deli)
+  if katz_deli.length > 0
+    line_list = katz_deli.map.with_index {|deli, index| "#{index + 1}. #{deli}"}
+    puts "The line is currently: #{line_list.join(" ")}"
+  else
+    puts "The line is currently empty."
+end
+end
+
+def take_a_number (katz_deli, name)
+  if katz_deli.length > 0
+    katz_deli.push(name)
+  else
+    puts "sheesh"
+end
+end
