@@ -18,6 +18,6 @@ name = katz_deli.shift
   if katz_deli.length > 0
     puts "Currently serving #{name}."
   else
-    puts "There is nobody waiting to be served"
+    puts "There is nobody waiting to be served!"
   end
 end
